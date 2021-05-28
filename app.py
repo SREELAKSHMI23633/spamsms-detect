@@ -1,12 +1,19 @@
+#!/usr/bin/env python
+# coding: utf-8
+
+# In[ ]:
+
+
 # Importing essential libraries
+
 from flask import Flask, render_template, request
 import pickle
 
-# Load the SVM model and CountVectorizer object from disk
-filename = 'modelfile.pkl'
-classifier = pickle.load(open(filename, 'rb'))
-cv = pickle.load(open('transformfile.pkl','rb'))
 app = Flask(__name__)
+# Load the SVM model and CountVectorizer object from disk
+classifier = pickle.load(open('modelfile.pkl', 'rb'))
+cv = pickle.load(open('transformfile.pkl','rb'))
+
 
 @app.route('/')
 def home():
@@ -22,4 +29,11 @@ def predict():
     	return render_template('result.html', prediction=my_prediction)
 
 if __name__ == '__main__':
-	app.run(debug=True)
+	app.run()
+
+
+# In[ ]:
+
+
+
+
