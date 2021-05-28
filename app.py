@@ -1,6 +1,5 @@
 # Importing essential libraries
 from flask import Flask, render_template, request
-pip install sklearn
 from sklearn.svm import LinearSVC
 import sklearn.svm.classes
 import pickle
