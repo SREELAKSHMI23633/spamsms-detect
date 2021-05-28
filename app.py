@@ -10,7 +10,7 @@ from flask import Flask, render_template, request
 import pickle
 
 app = Flask(__name__)
-# Load the SVM model and CountVectorizer object from disk
+# Load the naive bayes model and CountVectorizer object from disk
 classifier = pickle.load(open('modelfile.pkl', 'rb'))
 cv = pickle.load(open('transformfile.pkl','rb'))
 
