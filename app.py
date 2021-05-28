@@ -1,6 +1,7 @@
 # Importing essential libraries
 from flask import Flask, render_template, request
 from sklearn.svm import LinearSVC
+import sklearn.svm.classes
 import pickle
 
 # Load the SVM model and CountVectorizer object from disk
