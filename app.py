@@ -1,5 +1,6 @@
 # Importing essential libraries
 from flask import Flask, render_template, request
+from sklearn.svm import LinearSVC
 import pickle
 
 # Load the SVM model and CountVectorizer object from disk
@@ -22,4 +23,4 @@ def predict():
     	return render_template('result.html', prediction=my_prediction)
 
 if __name__ == '__main__':
-	app.run()
+	app.run(debug=True)
