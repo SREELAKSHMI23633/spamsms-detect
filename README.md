@@ -4,9 +4,9 @@ This project is about detecting spam messages built by using Machine learning an
 
 https://spamsms-detect.herokuapp.com/ (hosted here in heroku free trail expired )
 
-Now it is hosted in free cloud platform called "[railway.app](https://railway.app/)"
+Now it is hosted in free cloud platform 
 
-The persent working link is  https://web-production-04f2.up.railway.app/
+The present working link is  [](https://sree2310.pythonanywhere.com/)
 
 This is how it looks when you open the above provided link
 
