@@ -6,7 +6,7 @@ https://spamsms-detect.herokuapp.com/ (hosted here in heroku free trail expired 
 
 Now it is hosted in free cloud platform 
 
-The present working link is  [](https://sree2310.pythonanywhere.com/)
+The present working link is https://sree2310.pythonanywhere.com/
 
 This is how it looks when you open the above provided link
 
